@@ -23,11 +23,12 @@ import CloseIcon from '@material-ui/icons/Close';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        maxWidth: 500,
+        maxWidth: 1000,
         height: 500,
     },
     media: {
-        height: 350,
+        height: 300,
+        maxWidth: 1000,
     },
     app: {
         width: '100%',
@@ -126,7 +127,7 @@ const UserVaccineStatus = () => {
                             image={pending}
                             title="Vaccine Status Pending"
                         /> : <CardMedia
-                            className="media"
+                            className={classes.media}
                             image={completed}
                             title="Vaccine Status Completed"
                         />}

@@ -65,6 +65,8 @@ react Based Simple Front End for Vaccine Booking
 ![alt text](external/Screen15.PNG "ER Diagram")
 ![alt text](external/Screen16.PNG "ER Diagram")
 
+### Screen 8 - If the logged in user's vaccination status is completed it will show as completed in status page
+![alt text](external/Screen17.PNG "ER Diagram")
 
 ## Additional Libraries added
 - Material UI 
